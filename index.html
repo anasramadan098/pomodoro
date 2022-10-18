@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="loading">
+        <h1>
+            Pomodoro
+        </h1>
+    </div>
+    <div class="holder">
+        <h1>Pomodoro</h1>
+        <ul class="types">
+            <li class="active">Pomodoro</li>
+            <li>Short Break</li>
+            <li>Long Break</li>
+        </ul>
+        <div class="timer">
+            <div class="circle">
+                <span class="time"><span class="min">25</span>:<span class="sec">00</span> </span>
+                <span class="start">Start</span>
+                <!-- <span>Pause</span> -->
+            </div>
+        </div>
+        <div class="gear">
+            <i class="fa-solid fa-gear "></i>
+        </div>
+        <div class="setting">
+                <div>
+                <input type="number"  placeholder="Pomo Time">
+                <input type="number" placeholder="S.B Time">
+                <input type="number" placeholder="L.B Time">
+                <button class="button">Save</button>
+                <button class="button clear">Clear</button>
+                </div>
+        </div>
+    </div>
+    <span class="remove">Reset</span>
+    <script src="js/main.js"></script>
+</body>
+</html>
