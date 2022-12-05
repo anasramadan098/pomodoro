@@ -176,3 +176,15 @@ input {
     position: relative;
     z-index: 1000;
 }
+
+
+
+  @media (max-width:767px) {
+        
+        .timer {
+            margin: 200px 0 150px;
+        }
+        .holder {
+            align-items: center;
+        }
+    }
